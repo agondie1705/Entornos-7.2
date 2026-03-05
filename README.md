@@ -1,11 +1,13 @@
-# Entornos-7.2
-ejercicio 1
+# Entornos 7.2 - Diagramas de Casos de Uso
+
+## Ejercicio 1 - Sistema de Iluminación
+
 ```mermaid
 graph LR
 Usuario --> Encender_Luces
 Usuario --> Apagar_Luces
 ```
-ejercicio 2
+## Ejercicio 2 - Tienda Online
 ```mermaid
 graph LR
 Cliente --> Comprar_Producto
@@ -13,7 +15,7 @@ Administrador --> Gestionar_Stock
 
 Aplicar_Cupon -.->|extend| Comprar_Producto
 ```
-ejercicio 3
+## Ejercicio 3 - Plataforma Streaming
 ```mermaid
 graph LR
 
